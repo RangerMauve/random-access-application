@@ -1,6 +1,6 @@
 {
   "name": "random-access-application",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get a random-access-storage instance scoped to your application",
   "main": "index.js",
   "browser": "browser.js",
