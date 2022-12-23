@@ -9,5 +9,5 @@ module.exports = function RAA (application) {
 
   const dir = paths.data
 
-  return (file) => randomAccessFile(path.join(dir, file))
+  return (file, ...options) => randomAccessFile(path.join(dir, file), ...options)
 }
